@@ -1,0 +1,33 @@
+/*apply styles to the body*/
+body{
+    font-family:Arial,sans-serif;
+    margin:0;
+    padding:0;
+    background-color:#f4f4f4;
+}
+/*syles the header*/
+header{
+    background-color:#333;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+/*style navigation links*/
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+}
+nav a:hover{
+    text-decoration:underline;
+}
+/*center content*/
+section{
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    background-color:white;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+/*style the footer*/
